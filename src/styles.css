@@ -1,0 +1,102 @@
+/* Global Reset */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f8f9fb;
+  color: #333;
+}
+
+/* Navbar */
+nav {
+  background: #6200ea;
+  padding: 12px 20px;
+  display: flex;
+  gap: 15px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Page Container */
+div {
+  padding: 20px;
+}
+
+/* Headings */
+h2 {
+  margin-bottom: 15px;
+  color: #333;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 5px;
+}
+
+h3 {
+  margin-top: 25px;
+  color: #444;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  margin-top: 10px;
+  border-collapse: collapse;
+  background: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+th {
+  background: #f1f1f1;
+  font-weight: bold;
+}
+
+tr:hover {
+  background: #fafafa;
+}
+
+/* Cards for overview stats */
+ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 12px;
+}
+
+ul li {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  font-weight: 500;
+}
+
+/* Buttons */
+button, .btn {
+  background: #6200ea;
+  color: white;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover, .btn:hover {
+  background: #4500a8;
+}
